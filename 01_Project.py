@@ -35,6 +35,8 @@ while True:
     with sr.Microphone() as source:
         print("Please say something")
         audio = r.listen(source)
+
+        # modified
     
         
 
